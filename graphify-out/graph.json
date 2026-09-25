@@ -1,0 +1,4272 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/config/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_init",
+      "community": 22,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "asgi.py",
+      "file_type": "code",
+      "source_file": "backend/config/asgi.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_asgi",
+      "community": 21,
+      "norm_label": "asgi.py"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/config/settings/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_init",
+      "community": 28,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "base.py",
+      "file_type": "code",
+      "source_file": "backend/config/settings/base.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_base",
+      "community": 9,
+      "norm_label": "base.py"
+    },
+    {
+      "label": "Shared Django settings.",
+      "file_type": "rationale",
+      "source_file": "backend/config/settings/base.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_base_rationale_1",
+      "community": 9,
+      "norm_label": "shared django settings."
+    },
+    {
+      "label": "development.py",
+      "file_type": "code",
+      "source_file": "backend/config/settings/development.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_development",
+      "community": 9,
+      "norm_label": "development.py"
+    },
+    {
+      "label": "Local and Docker development settings.",
+      "file_type": "rationale",
+      "source_file": "backend/config/settings/development.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_development_rationale_1",
+      "community": 9,
+      "norm_label": "local and docker development settings."
+    },
+    {
+      "label": "production.py",
+      "file_type": "code",
+      "source_file": "backend/config/settings/production.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_production",
+      "community": 9,
+      "norm_label": "production.py"
+    },
+    {
+      "label": "Production settings. Secrets and hosts must come from the environment.",
+      "file_type": "rationale",
+      "source_file": "backend/config/settings/production.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_production_rationale_1",
+      "community": 9,
+      "norm_label": "production settings. secrets and hosts must come from the environment."
+    },
+    {
+      "label": "test.py",
+      "file_type": "code",
+      "source_file": "backend/config/settings/test.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_test",
+      "community": 9,
+      "norm_label": "test.py"
+    },
+    {
+      "label": "Settings for the local/CI test suite. Uses SQLite so Postgres is not required.",
+      "file_type": "rationale",
+      "source_file": "backend/config/settings/test.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "settings_test_rationale_1",
+      "community": 9,
+      "norm_label": "settings for the local/ci test suite. uses sqlite so postgres is not required."
+    },
+    {
+      "label": "urls.py",
+      "file_type": "code",
+      "source_file": "backend/config/urls.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_urls",
+      "community": 15,
+      "norm_label": "urls.py"
+    },
+    {
+      "label": "views.py",
+      "file_type": "code",
+      "source_file": "backend/config/views.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_views",
+      "community": 15,
+      "norm_label": "views.py"
+    },
+    {
+      "label": "health()",
+      "file_type": "code",
+      "source_file": "backend/config/views.py",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "config_views_health",
+      "community": 15,
+      "norm_label": "health()"
+    },
+    {
+      "label": "wsgi.py",
+      "file_type": "code",
+      "source_file": "backend/config/wsgi.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_wsgi",
+      "community": 23,
+      "norm_label": "wsgi.py"
+    },
+    {
+      "label": "conftest.py",
+      "file_type": "code",
+      "source_file": "backend/conftest.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_conftest",
+      "community": 18,
+      "norm_label": "conftest.py"
+    },
+    {
+      "label": "api_client()",
+      "file_type": "code",
+      "source_file": "backend/conftest.py",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "backend_conftest_api_client",
+      "community": 18,
+      "norm_label": "api_client()"
+    },
+    {
+      "label": "entrypoint.sh",
+      "file_type": "code",
+      "source_file": "backend/docker/entrypoint.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "docker_entrypoint",
+      "community": 20,
+      "norm_label": "entrypoint.sh"
+    },
+    {
+      "label": "entrypoint.sh script",
+      "file_type": "code",
+      "source_file": "backend/docker/entrypoint.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "home_bornaminii_projects_attendance_tracker_backend_docker_entrypoint_sh__entry",
+      "community": 20,
+      "norm_label": "entrypoint.sh script"
+    },
+    {
+      "label": "manage.py",
+      "file_type": "code",
+      "source_file": "backend/manage.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_manage",
+      "community": 19,
+      "norm_label": "manage.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "backend/manage.py",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "backend_manage_main",
+      "community": 19,
+      "norm_label": "main()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/tests/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tests_init",
+      "community": 29,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "test_smoke.py",
+      "file_type": "code",
+      "source_file": "backend/tests/test_smoke.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tests_test_smoke",
+      "community": 16,
+      "norm_label": "test_smoke.py"
+    },
+    {
+      "label": "test_health()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_smoke.py",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "tests_test_smoke_test_health",
+      "community": 16,
+      "norm_label": "test_health()"
+    },
+    {
+      "label": "test_manage_check()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_smoke.py",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "tests_test_smoke_test_manage_check",
+      "community": 16,
+      "norm_label": "test_manage_check()"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_app_tsx_mobile_app",
+      "community": 1,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "queryClient",
+      "file_type": "code",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "mobile_app_queryclient",
+      "community": 1,
+      "norm_label": "queryclient"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "mobile_app_app",
+      "community": 1,
+      "norm_label": "app()"
+    },
+    {
+      "label": "smoke.test.ts",
+      "file_type": "code",
+      "source_file": "mobile/__tests__/smoke.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tests_smoke_test",
+      "community": 1,
+      "norm_label": "smoke.test.ts"
+    },
+    {
+      "label": "app.json",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_app_json_mobile_app",
+      "community": 3,
+      "norm_label": "app.json"
+    },
+    {
+      "label": "expo",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "mobile_app_expo",
+      "community": 3,
+      "norm_label": "expo"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "mobile_app_expo_name",
+      "community": 3,
+      "norm_label": "name"
+    },
+    {
+      "label": "slug",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "mobile_app_expo_slug",
+      "community": 3,
+      "norm_label": "slug"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "mobile_app_expo_version",
+      "community": 3,
+      "norm_label": "version"
+    },
+    {
+      "label": "orientation",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "mobile_app_expo_orientation",
+      "community": 3,
+      "norm_label": "orientation"
+    },
+    {
+      "label": "icon",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "mobile_app_expo_icon",
+      "community": 3,
+      "norm_label": "icon"
+    },
+    {
+      "label": "userInterfaceStyle",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "mobile_app_expo_userinterfacestyle",
+      "community": 3,
+      "norm_label": "userinterfacestyle"
+    },
+    {
+      "label": "ios",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "mobile_app_expo_ios",
+      "community": 3,
+      "norm_label": "ios"
+    },
+    {
+      "label": "supportsTablet",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "mobile_app_ios_supportstablet",
+      "community": 3,
+      "norm_label": "supportstablet"
+    },
+    {
+      "label": "android",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "mobile_app_expo_android",
+      "community": 3,
+      "norm_label": "android"
+    },
+    {
+      "label": "adaptiveIcon",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "mobile_app_android_adaptiveicon",
+      "community": 3,
+      "norm_label": "adaptiveicon"
+    },
+    {
+      "label": "backgroundColor",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "mobile_app_adaptiveicon_backgroundcolor",
+      "community": 3,
+      "norm_label": "backgroundcolor"
+    },
+    {
+      "label": "foregroundImage",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "mobile_app_adaptiveicon_foregroundimage",
+      "community": 3,
+      "norm_label": "foregroundimage"
+    },
+    {
+      "label": "backgroundImage",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "mobile_app_adaptiveicon_backgroundimage",
+      "community": 3,
+      "norm_label": "backgroundimage"
+    },
+    {
+      "label": "monochromeImage",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "mobile_app_adaptiveicon_monochromeimage",
+      "community": 3,
+      "norm_label": "monochromeimage"
+    },
+    {
+      "label": "predictiveBackGestureEnabled",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "mobile_app_android_predictivebackgestureenabled",
+      "community": 3,
+      "norm_label": "predictivebackgestureenabled"
+    },
+    {
+      "label": "web",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "mobile_app_expo_web",
+      "community": 3,
+      "norm_label": "web"
+    },
+    {
+      "label": "favicon",
+      "file_type": "code",
+      "source_file": "mobile/app.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "mobile_app_web_favicon",
+      "community": 3,
+      "norm_label": "favicon"
+    },
+    {
+      "label": "babel.config.js",
+      "file_type": "code",
+      "source_file": "mobile/babel.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_babel_config",
+      "community": 24,
+      "norm_label": "babel.config.js"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "mobile/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_index",
+      "community": 1,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "metro.config.js",
+      "file_type": "code",
+      "source_file": "mobile/metro.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_metro_config",
+      "community": 14,
+      "norm_label": "metro.config.js"
+    },
+    {
+      "label": "{ getDefaultConfig }",
+      "file_type": "code",
+      "source_file": "mobile/metro.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_metro_config_getdefaultconfig",
+      "community": 14,
+      "norm_label": "{ getdefaultconfig }"
+    },
+    {
+      "label": "{ withNativeWind }",
+      "file_type": "code",
+      "source_file": "mobile/metro.config.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "mobile_metro_config_withnativewind",
+      "community": 14,
+      "norm_label": "{ withnativewind }"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "mobile/metro.config.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "mobile_metro_config_config",
+      "community": 14,
+      "norm_label": "config"
+    },
+    {
+      "label": "nativewind-env.d.ts",
+      "file_type": "code",
+      "source_file": "mobile/nativewind-env.d.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_nativewind_env_d",
+      "community": 26,
+      "norm_label": "nativewind-env.d.ts"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_package",
+      "community": 2,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "mobile_package_name",
+      "community": 2,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "mobile_package_version",
+      "community": 2,
+      "norm_label": "version"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "mobile_package_main",
+      "community": 2,
+      "norm_label": "main"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies",
+      "community": 8,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@react-navigation/native",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_navigation_native",
+      "community": 8,
+      "norm_label": "@react-navigation/native"
+    },
+    {
+      "label": "@react-navigation/native-stack",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_navigation_native_stack",
+      "community": 8,
+      "norm_label": "@react-navigation/native-stack"
+    },
+    {
+      "label": "@reduxjs/toolkit",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_reduxjs_toolkit",
+      "community": 8,
+      "norm_label": "@reduxjs/toolkit"
+    },
+    {
+      "label": "@tanstack/react-query",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_tanstack_react_query",
+      "community": 8,
+      "norm_label": "@tanstack/react-query"
+    },
+    {
+      "label": "axios",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_axios",
+      "community": 8,
+      "norm_label": "axios"
+    },
+    {
+      "label": "babel-preset-expo",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_babel_preset_expo",
+      "community": 8,
+      "norm_label": "babel-preset-expo"
+    },
+    {
+      "label": "expo",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_expo",
+      "community": 8,
+      "norm_label": "expo"
+    },
+    {
+      "label": "expo-status-bar",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_expo_status_bar",
+      "community": 8,
+      "norm_label": "expo-status-bar"
+    },
+    {
+      "label": "nativewind",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_nativewind",
+      "community": 8,
+      "norm_label": "nativewind"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react",
+      "community": 8,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-native",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_native",
+      "community": 8,
+      "norm_label": "react-native"
+    },
+    {
+      "label": "react-native-reanimated",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_native_reanimated",
+      "community": 8,
+      "norm_label": "react-native-reanimated"
+    },
+    {
+      "label": "react-native-safe-area-context",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_native_safe_area_context",
+      "community": 8,
+      "norm_label": "react-native-safe-area-context"
+    },
+    {
+      "label": "react-native-screens",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_native_screens",
+      "community": 8,
+      "norm_label": "react-native-screens"
+    },
+    {
+      "label": "react-redux",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_redux",
+      "community": 8,
+      "norm_label": "react-redux"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_tailwindcss",
+      "community": 8,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "mobile_package_devdependencies",
+      "community": 2,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@types/jest",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "mobile_package_devdependencies_types_jest",
+      "community": 2,
+      "norm_label": "@types/jest"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "mobile_package_devdependencies_types_react",
+      "community": 2,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "jest",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "mobile_package_devdependencies_jest",
+      "community": 2,
+      "norm_label": "jest"
+    },
+    {
+      "label": "jest-expo",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "mobile_package_devdependencies_jest_expo",
+      "community": 2,
+      "norm_label": "jest-expo"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "mobile_package_devdependencies_typescript",
+      "community": 2,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "mobile_package_scripts",
+      "community": 2,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "mobile_package_scripts_start",
+      "community": 2,
+      "norm_label": "start"
+    },
+    {
+      "label": "android",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "mobile_package_scripts_android",
+      "community": 2,
+      "norm_label": "android"
+    },
+    {
+      "label": "ios",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "mobile_package_scripts_ios",
+      "community": 2,
+      "norm_label": "ios"
+    },
+    {
+      "label": "web",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "mobile_package_scripts_web",
+      "community": 2,
+      "norm_label": "web"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "mobile_package_scripts_test",
+      "community": 2,
+      "norm_label": "test"
+    },
+    {
+      "label": "jest",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "mobile_package_jest",
+      "community": 2,
+      "norm_label": "jest"
+    },
+    {
+      "label": "preset",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "mobile_package_jest_preset",
+      "community": 2,
+      "norm_label": "preset"
+    },
+    {
+      "label": "transformIgnorePatterns",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "mobile_package_jest_transformignorepatterns",
+      "community": 2,
+      "norm_label": "transformignorepatterns"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "mobile_package_private",
+      "community": 2,
+      "norm_label": "private"
+    },
+    {
+      "label": "client.ts",
+      "file_type": "code",
+      "source_file": "mobile/src/api/client.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_client",
+      "community": 17,
+      "norm_label": "client.ts"
+    },
+    {
+      "label": "apiClient",
+      "file_type": "code",
+      "source_file": "mobile/src/api/client.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "api_client_apiclient",
+      "community": 17,
+      "norm_label": "apiclient"
+    },
+    {
+      "label": "RootNavigator.tsx",
+      "file_type": "code",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "navigation_rootnavigator",
+      "community": 1,
+      "norm_label": "rootnavigator.tsx"
+    },
+    {
+      "label": "RootStackParamList",
+      "file_type": "code",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "navigation_rootnavigator_rootstackparamlist",
+      "community": 1,
+      "norm_label": "rootstackparamlist"
+    },
+    {
+      "label": "Stack",
+      "file_type": "code",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "navigation_rootnavigator_stack",
+      "community": 1,
+      "norm_label": "stack"
+    },
+    {
+      "label": "RootNavigator()",
+      "file_type": "code",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "navigation_rootnavigator_rootnavigator",
+      "community": 1,
+      "norm_label": "rootnavigator()"
+    },
+    {
+      "label": "HomeScreen.tsx",
+      "file_type": "code",
+      "source_file": "mobile/src/screens/HomeScreen.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "screens_homescreen",
+      "community": 1,
+      "norm_label": "homescreen.tsx"
+    },
+    {
+      "label": "HomeScreen()",
+      "file_type": "code",
+      "source_file": "mobile/src/screens/HomeScreen.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "screens_homescreen_homescreen",
+      "community": 1,
+      "norm_label": "homescreen()"
+    },
+    {
+      "label": "authSlice.ts",
+      "file_type": "code",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "store_authslice",
+      "community": 1,
+      "norm_label": "authslice.ts"
+    },
+    {
+      "label": "AuthStatus",
+      "file_type": "code",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "store_authslice_authstatus",
+      "community": 1,
+      "norm_label": "authstatus"
+    },
+    {
+      "label": "AuthState",
+      "file_type": "code",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "store_authslice_authstate",
+      "community": 1,
+      "norm_label": "authstate"
+    },
+    {
+      "label": "initialState",
+      "file_type": "code",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "store_authslice_initialstate",
+      "community": 1,
+      "norm_label": "initialstate"
+    },
+    {
+      "label": "authSlice",
+      "file_type": "code",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "store_authslice_authslice",
+      "community": 1,
+      "norm_label": "authslice"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "store_index",
+      "community": 1,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "store",
+      "file_type": "code",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "store_index_store",
+      "community": 1,
+      "norm_label": "store"
+    },
+    {
+      "label": "RootState",
+      "file_type": "code",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "store_index_rootstate",
+      "community": 1,
+      "norm_label": "rootstate"
+    },
+    {
+      "label": "AppDispatch",
+      "file_type": "code",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "store_index_appdispatch",
+      "community": 1,
+      "norm_label": "appdispatch"
+    },
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "mobile/tailwind.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_tailwind_config",
+      "community": 27,
+      "norm_label": "tailwind.config.js"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_tsconfig",
+      "community": 13,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "mobile_tsconfig_extends",
+      "community": 13,
+      "norm_label": "extends"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "mobile_tsconfig_compileroptions",
+      "community": 13,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "mobile_tsconfig_compileroptions_strict",
+      "community": 13,
+      "norm_label": "strict"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "mobile_tsconfig_compileroptions_types",
+      "community": 13,
+      "norm_label": "types"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 10,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Attendance Tracker",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_attendance_tracker",
+      "community": 10,
+      "norm_label": "attendance tracker"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_stack",
+      "community": 10,
+      "norm_label": "stack"
+    },
+    {
+      "label": "Setup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "readme_setup",
+      "community": 10,
+      "norm_label": "setup"
+    },
+    {
+      "label": "Run the API",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "readme_run_the_api",
+      "community": 10,
+      "norm_label": "run the api"
+    },
+    {
+      "label": "Run the mobile app",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "readme_run_the_mobile_app",
+      "community": 10,
+      "norm_label": "run the mobile app"
+    },
+    {
+      "label": "Tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "readme_tests",
+      "community": 10,
+      "norm_label": "tests"
+    },
+    {
+      "label": "api-design.md",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_api_design",
+      "community": 5,
+      "norm_label": "api-design.md"
+    },
+    {
+      "label": "API Design",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_api_design_api_design",
+      "community": 5,
+      "norm_label": "api design"
+    },
+    {
+      "label": "Pagination",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_api_design_pagination",
+      "community": 5,
+      "norm_label": "pagination"
+    },
+    {
+      "label": "Filtering",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_api_design_filtering",
+      "community": 5,
+      "norm_label": "filtering"
+    },
+    {
+      "label": "Auth",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_api_design_auth",
+      "community": 5,
+      "norm_label": "auth"
+    },
+    {
+      "label": "Errors",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "docs_api_design_errors",
+      "community": 5,
+      "norm_label": "errors"
+    },
+    {
+      "label": "Classes",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_api_design_classes",
+      "community": 5,
+      "norm_label": "classes"
+    },
+    {
+      "label": "Students",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "docs_api_design_students",
+      "community": 5,
+      "norm_label": "students"
+    },
+    {
+      "label": "Enrollments",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "docs_api_design_enrollments",
+      "community": 5,
+      "norm_label": "enrollments"
+    },
+    {
+      "label": "Attendance",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L160",
+      "_origin": "ast",
+      "id": "docs_api_design_attendance",
+      "community": 5,
+      "norm_label": "attendance"
+    },
+    {
+      "label": "Payments",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L213",
+      "_origin": "ast",
+      "id": "docs_api_design_payments",
+      "community": 5,
+      "norm_label": "payments"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L243",
+      "_origin": "ast",
+      "id": "docs_api_design_notes",
+      "community": 5,
+      "norm_label": "notes"
+    },
+    {
+      "label": "Recommendations",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L259",
+      "_origin": "ast",
+      "id": "docs_api_design_recommendations",
+      "community": 5,
+      "norm_label": "recommendations"
+    },
+    {
+      "label": "Dashboard",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L274",
+      "_origin": "ast",
+      "id": "docs_api_design_dashboard",
+      "community": 5,
+      "norm_label": "dashboard"
+    },
+    {
+      "label": "Permissions Matrix",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L292",
+      "_origin": "ast",
+      "id": "docs_api_design_permissions_matrix",
+      "community": 5,
+      "norm_label": "permissions matrix"
+    },
+    {
+      "label": "Versioning",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L302",
+      "_origin": "ast",
+      "id": "docs_api_design_versioning",
+      "community": 5,
+      "norm_label": "versioning"
+    },
+    {
+      "label": "CORS",
+      "file_type": "document",
+      "source_file": "docs/api-design.md",
+      "source_location": "L308",
+      "_origin": "ast",
+      "id": "docs_api_design_cors",
+      "community": 5,
+      "norm_label": "cors"
+    },
+    {
+      "label": "architecture.md",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture",
+      "community": 0,
+      "norm_label": "architecture.md"
+    },
+    {
+      "label": "Architecture Overview",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture_architecture_overview",
+      "community": 0,
+      "norm_label": "architecture overview"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_architecture_purpose",
+      "community": 0,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "High-Level System",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_architecture_high_level_system",
+      "community": 0,
+      "norm_label": "high-level system"
+    },
+    {
+      "label": "Architectural Principles",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "docs_architecture_architectural_principles",
+      "community": 0,
+      "norm_label": "architectural principles"
+    },
+    {
+      "label": "Repository Layout",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_architecture_repository_layout",
+      "community": 0,
+      "norm_label": "repository layout"
+    },
+    {
+      "label": "Backend Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "docs_architecture_backend_architecture",
+      "community": 0,
+      "norm_label": "backend architecture"
+    },
+    {
+      "label": "Layers",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "docs_architecture_layers",
+      "community": 0,
+      "norm_label": "layers"
+    },
+    {
+      "label": "Multi-Tenancy (User Isolation)",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "docs_architecture_multi_tenancy_user_isolation",
+      "community": 0,
+      "norm_label": "multi-tenancy (user isolation)"
+    },
+    {
+      "label": "Authentication Strategy",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "docs_architecture_authentication_strategy",
+      "community": 0,
+      "norm_label": "authentication strategy"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "docs_architecture_configuration",
+      "community": 0,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "API Documentation",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "docs_architecture_api_documentation",
+      "community": 0,
+      "norm_label": "api documentation"
+    },
+    {
+      "label": "Error Format",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L112",
+      "_origin": "ast",
+      "id": "docs_architecture_error_format",
+      "community": 0,
+      "norm_label": "error format"
+    },
+    {
+      "label": "Mobile Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "docs_architecture_mobile_architecture",
+      "community": 0,
+      "norm_label": "mobile architecture"
+    },
+    {
+      "label": "Recommended Stack Details",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "docs_architecture_recommended_stack_details",
+      "community": 0,
+      "norm_label": "recommended stack details"
+    },
+    {
+      "label": "Networking",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "docs_architecture_networking",
+      "community": 0,
+      "norm_label": "networking"
+    },
+    {
+      "label": "Docker (Development)",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L141",
+      "_origin": "ast",
+      "id": "docs_architecture_docker_development",
+      "community": 0,
+      "norm_label": "docker (development)"
+    },
+    {
+      "label": "Key Tradeoffs",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "docs_architecture_key_tradeoffs",
+      "community": 0,
+      "norm_label": "key tradeoffs"
+    },
+    {
+      "label": "Future Scalability (Documented, Not MVP)",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L157",
+      "_origin": "ast",
+      "id": "docs_architecture_future_scalability_documented_not_mvp",
+      "community": 0,
+      "norm_label": "future scalability (documented, not mvp)"
+    },
+    {
+      "label": "Security Summary",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L165",
+      "_origin": "ast",
+      "id": "docs_architecture_security_summary",
+      "community": 0,
+      "norm_label": "security summary"
+    },
+    {
+      "label": "Ambiguities Resolved (Without User Input)",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "docs_architecture_ambiguities_resolved_without_user_input",
+      "community": 0,
+      "norm_label": "ambiguities resolved (without user input)"
+    },
+    {
+      "label": "Questions for Product Owner",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "docs_architecture_questions_for_product_owner",
+      "community": 0,
+      "norm_label": "questions for product owner"
+    },
+    {
+      "label": "database-design.md",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_database_design",
+      "community": 4,
+      "norm_label": "database-design.md"
+    },
+    {
+      "label": "Database Design",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_database_design_database_design",
+      "community": 4,
+      "norm_label": "database design"
+    },
+    {
+      "label": "Entity Relationship (Logical)",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_database_design_entity_relationship_logical",
+      "community": 4,
+      "norm_label": "entity relationship (logical)"
+    },
+    {
+      "label": "Tables",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_database_design_tables",
+      "community": 4,
+      "norm_label": "tables"
+    },
+    {
+      "label": "`accounts_user`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_database_design_accounts_user",
+      "community": 4,
+      "norm_label": "`accounts_user`"
+    },
+    {
+      "label": "`classes_class`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "docs_database_design_classes_class",
+      "community": 4,
+      "norm_label": "`classes_class`"
+    },
+    {
+      "label": "`students_student`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "docs_database_design_students_student",
+      "community": 4,
+      "norm_label": "`students_student`"
+    },
+    {
+      "label": "`students_enrollment`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "docs_database_design_students_enrollment",
+      "community": 4,
+      "norm_label": "`students_enrollment`"
+    },
+    {
+      "label": "`attendance_attendance`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L109",
+      "_origin": "ast",
+      "id": "docs_database_design_attendance_attendance",
+      "community": 4,
+      "norm_label": "`attendance_attendance`"
+    },
+    {
+      "label": "`payments_payment`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "docs_database_design_payments_payment",
+      "community": 4,
+      "norm_label": "`payments_payment`"
+    },
+    {
+      "label": "`notes_studentnote`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "docs_database_design_notes_studentnote",
+      "community": 4,
+      "norm_label": "`notes_studentnote`"
+    },
+    {
+      "label": "`recommendations_recommendation`",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L161",
+      "_origin": "ast",
+      "id": "docs_database_design_recommendations_recommendation",
+      "community": 4,
+      "norm_label": "`recommendations_recommendation`"
+    },
+    {
+      "label": "ER Diagram (Mermaid)",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L175",
+      "_origin": "ast",
+      "id": "docs_database_design_er_diagram_mermaid",
+      "community": 4,
+      "norm_label": "er diagram (mermaid)"
+    },
+    {
+      "label": "Attendance Status Extensibility",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L193",
+      "_origin": "ast",
+      "id": "docs_database_design_attendance_status_extensibility",
+      "community": 4,
+      "norm_label": "attendance status extensibility"
+    },
+    {
+      "label": "Cascades and Deletes",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L201",
+      "_origin": "ast",
+      "id": "docs_database_design_cascades_and_deletes",
+      "community": 4,
+      "norm_label": "cascades and deletes"
+    },
+    {
+      "label": "Statistics (Computed, Not Stored)",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L211",
+      "_origin": "ast",
+      "id": "docs_database_design_statistics_computed_not_stored",
+      "community": 4,
+      "norm_label": "statistics (computed, not stored)"
+    },
+    {
+      "label": "Migrations Strategy",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L228",
+      "_origin": "ast",
+      "id": "docs_database_design_migrations_strategy",
+      "community": 4,
+      "norm_label": "migrations strategy"
+    },
+    {
+      "label": "PostgreSQL",
+      "file_type": "document",
+      "source_file": "docs/database-design.md",
+      "source_location": "L235",
+      "_origin": "ast",
+      "id": "docs_database_design_postgresql",
+      "community": 4,
+      "norm_label": "postgresql"
+    },
+    {
+      "label": "frontend-architecture.md",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture",
+      "community": 6,
+      "norm_label": "frontend-architecture.md"
+    },
+    {
+      "label": "Frontend Architecture (React Native)",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_frontend_architecture_react_native",
+      "community": 6,
+      "norm_label": "frontend architecture (react native)"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_stack",
+      "community": 6,
+      "norm_label": "stack"
+    },
+    {
+      "label": "Redux vs React Query",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_redux_vs_react_query",
+      "community": 6,
+      "norm_label": "redux vs react query"
+    },
+    {
+      "label": "Redux Toolkit owns",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_redux_toolkit_owns",
+      "community": 6,
+      "norm_label": "redux toolkit owns"
+    },
+    {
+      "label": "React Query owns",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_react_query_owns",
+      "community": 6,
+      "norm_label": "react query owns"
+    },
+    {
+      "label": "Auth + Query integration",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_auth_query_integration",
+      "community": 6,
+      "norm_label": "auth + query integration"
+    },
+    {
+      "label": "Project Structure (`mobile/src/`)",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_project_structure_mobile_src",
+      "community": 6,
+      "norm_label": "project structure (`mobile/src/`)"
+    },
+    {
+      "label": "Navigation Structure",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_navigation_structure",
+      "community": 6,
+      "norm_label": "navigation structure"
+    },
+    {
+      "label": "Screen UX Patterns",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_screen_ux_patterns",
+      "community": 6,
+      "norm_label": "screen ux patterns"
+    },
+    {
+      "label": "Take Attendance UX",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_take_attendance_ux",
+      "community": 6,
+      "norm_label": "take attendance ux"
+    },
+    {
+      "label": "Student Profile",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_student_profile",
+      "community": 6,
+      "norm_label": "student profile"
+    },
+    {
+      "label": "Forms and Validation",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L166",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_forms_and_validation",
+      "community": 6,
+      "norm_label": "forms and validation"
+    },
+    {
+      "label": "Testing (Mobile)",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_testing_mobile",
+      "community": 6,
+      "norm_label": "testing (mobile)"
+    },
+    {
+      "label": "Environment",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L181",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_environment",
+      "community": 6,
+      "norm_label": "environment"
+    },
+    {
+      "label": "Accessibility",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L189",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_accessibility",
+      "community": 6,
+      "norm_label": "accessibility"
+    },
+    {
+      "label": "Performance",
+      "file_type": "document",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "docs_frontend_architecture_performance",
+      "community": 6,
+      "norm_label": "performance"
+    },
+    {
+      "label": "implementation-plan.md",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_implementation_plan",
+      "community": 7,
+      "norm_label": "implementation-plan.md"
+    },
+    {
+      "label": "Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_implementation_plan",
+      "community": 7,
+      "norm_label": "implementation plan"
+    },
+    {
+      "label": "Phase 1: Project setup",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_1_project_setup",
+      "community": 7,
+      "norm_label": "phase 1: project setup"
+    },
+    {
+      "label": "Phase 2: Database models",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_2_database_models",
+      "community": 7,
+      "norm_label": "phase 2: database models"
+    },
+    {
+      "label": "Phase 3: Authentication",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_3_authentication",
+      "community": 7,
+      "norm_label": "phase 3: authentication"
+    },
+    {
+      "label": "Phase 4: Class management",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_4_class_management",
+      "community": 7,
+      "norm_label": "phase 4: class management"
+    },
+    {
+      "label": "Phase 5: Student management & enrollment",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_5_student_management_enrollment",
+      "community": 7,
+      "norm_label": "phase 5: student management & enrollment"
+    },
+    {
+      "label": "Phase 6: Attendance",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_6_attendance",
+      "community": 7,
+      "norm_label": "phase 6: attendance"
+    },
+    {
+      "label": "Phase 7: Payments",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_7_payments",
+      "community": 7,
+      "norm_label": "phase 7: payments"
+    },
+    {
+      "label": "Phase 8: Notes",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_8_notes",
+      "community": 7,
+      "norm_label": "phase 8: notes"
+    },
+    {
+      "label": "Phase 9: Recommendations",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_9_recommendations",
+      "community": 7,
+      "norm_label": "phase 9: recommendations"
+    },
+    {
+      "label": "Phase 10: Dashboard & statistics",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_10_dashboard_statistics",
+      "community": 7,
+      "norm_label": "phase 10: dashboard & statistics"
+    },
+    {
+      "label": "Phase 11: Frontend polish",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_11_frontend_polish",
+      "community": 7,
+      "norm_label": "phase 11: frontend polish"
+    },
+    {
+      "label": "Phase 12: Testing & hardening",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L154",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_12_testing_hardening",
+      "community": 7,
+      "norm_label": "phase 12: testing & hardening"
+    },
+    {
+      "label": "Phase 13: Production readiness",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L166",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_phase_13_production_readiness",
+      "community": 7,
+      "norm_label": "phase 13: production readiness"
+    },
+    {
+      "label": "Dependency Graph",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L176",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_dependency_graph",
+      "community": 7,
+      "norm_label": "dependency graph"
+    },
+    {
+      "label": "Questions Requiring Your Decision",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "docs_implementation_plan_questions_requiring_your_decision",
+      "community": 7,
+      "norm_label": "questions requiring your decision"
+    },
+    {
+      "label": "progress.md",
+      "file_type": "document",
+      "source_file": "docs/progress.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_progress",
+      "community": 12,
+      "norm_label": "progress.md"
+    },
+    {
+      "label": "Implementation Progress",
+      "file_type": "document",
+      "source_file": "docs/progress.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_progress_implementation_progress",
+      "community": 12,
+      "norm_label": "implementation progress"
+    },
+    {
+      "label": "Documentation (pre-implementation)",
+      "file_type": "document",
+      "source_file": "docs/progress.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_progress_documentation_pre_implementation",
+      "community": 12,
+      "norm_label": "documentation (pre-implementation)"
+    },
+    {
+      "label": "Implementation phases",
+      "file_type": "document",
+      "source_file": "docs/progress.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "docs_progress_implementation_phases",
+      "community": 12,
+      "norm_label": "implementation phases"
+    },
+    {
+      "label": "Phase 1 notes",
+      "file_type": "document",
+      "source_file": "docs/progress.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "docs_progress_phase_1_notes",
+      "community": 12,
+      "norm_label": "phase 1 notes"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_agents",
+      "community": 11,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "Expo has changed \u2014 do not trust your training data",
+      "file_type": "document",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "mobile_agents_expo_has_changed_do_not_trust_your_training_data",
+      "community": 11,
+      "norm_label": "expo has changed \u2014 do not trust your training data"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "mobile_agents_commands",
+      "community": 11,
+      "norm_label": "commands"
+    },
+    {
+      "label": "Navigation & Routing",
+      "file_type": "document",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "mobile_agents_navigation_routing",
+      "community": 11,
+      "norm_label": "navigation & routing"
+    },
+    {
+      "label": "Building with EAS",
+      "file_type": "document",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "mobile_agents_building_with_eas",
+      "community": 11,
+      "norm_label": "building with eas"
+    },
+    {
+      "label": "Rules",
+      "file_type": "document",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "mobile_agents_rules",
+      "community": 11,
+      "norm_label": "rules"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "mobile/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_claude",
+      "community": 25,
+      "norm_label": "claude.md"
+    }
+  ],
+  "links": [
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/settings/base.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "settings_base_rationale_1",
+      "target": "settings_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/settings/development.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "settings_development",
+      "target": "settings_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/settings/production.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "settings_production",
+      "target": "settings_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/settings/test.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "settings_test",
+      "target": "settings_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/settings/development.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "settings_development_rationale_1",
+      "target": "settings_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/settings/production.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "settings_production_rationale_1",
+      "target": "settings_production",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/settings/test.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "settings_test_rationale_1",
+      "target": "settings_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/urls.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "config_urls",
+      "target": "config_views",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/views.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "config_views",
+      "target": "config_views_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/conftest.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_conftest",
+      "target": "backend_conftest_api_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docker/entrypoint.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docker_entrypoint",
+      "target": "home_bornaminii_projects_attendance_tracker_backend_docker_entrypoint_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/manage.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "backend_manage",
+      "target": "backend_manage_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_smoke.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_smoke.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_manage_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "mobile_app_tsx_mobile_app",
+      "target": "mobile_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "mobile_app_tsx_mobile_app",
+      "target": "mobile_app_queryclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "mobile_app_tsx_mobile_app",
+      "target": "navigation_rootnavigator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "mobile_app_tsx_mobile_app",
+      "target": "navigation_rootnavigator_rootnavigator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "mobile_app_tsx_mobile_app",
+      "target": "store_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "mobile_app_tsx_mobile_app",
+      "target": "store_index_store",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_index",
+      "target": "mobile_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/__tests__/smoke.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "tests_smoke_test",
+      "target": "store_authslice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_json_mobile_app",
+      "target": "mobile_app_expo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_android",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_icon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_ios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_orientation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_userinterfacestyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "mobile_app_expo",
+      "target": "mobile_app_expo_web",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "mobile_app_expo_ios",
+      "target": "mobile_app_ios_supportstablet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "mobile_app_expo_android",
+      "target": "mobile_app_android_adaptiveicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "mobile_app_expo_android",
+      "target": "mobile_app_android_predictivebackgestureenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "mobile_app_android_adaptiveicon",
+      "target": "mobile_app_adaptiveicon_backgroundcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "mobile_app_android_adaptiveicon",
+      "target": "mobile_app_adaptiveicon_backgroundimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "mobile_app_android_adaptiveicon",
+      "target": "mobile_app_adaptiveicon_foregroundimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "mobile_app_android_adaptiveicon",
+      "target": "mobile_app_adaptiveicon_monochromeimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "mobile_app_expo_web",
+      "target": "mobile_app_web_favicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/metro.config.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "mobile_metro_config",
+      "target": "mobile_metro_config_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/metro.config.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_metro_config",
+      "target": "mobile_metro_config_getdefaultconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/metro.config.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_metro_config",
+      "target": "mobile_metro_config_withnativewind",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_package",
+      "target": "mobile_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_axios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_babel_preset_expo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_expo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_expo_status_bar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_nativewind",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_native",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_native_reanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_native_safe_area_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_native_screens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_navigation_native",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_navigation_native_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_redux",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_reduxjs_toolkit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_tanstack_react_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_jest_expo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_types_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "mobile_package_scripts",
+      "target": "mobile_package_scripts_android",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "mobile_package_scripts",
+      "target": "mobile_package_scripts_ios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "mobile_package_scripts",
+      "target": "mobile_package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "mobile_package_scripts",
+      "target": "mobile_package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "mobile_package_scripts",
+      "target": "mobile_package_scripts_web",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "mobile_package_jest",
+      "target": "mobile_package_jest_preset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "mobile_package_jest",
+      "target": "mobile_package_jest_transformignorepatterns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/api/client.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "api_client",
+      "target": "api_client_apiclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "navigation_rootnavigator",
+      "target": "navigation_rootnavigator_rootnavigator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "navigation_rootnavigator",
+      "target": "navigation_rootnavigator_rootstackparamlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "navigation_rootnavigator",
+      "target": "navigation_rootnavigator_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "navigation_rootnavigator",
+      "target": "screens_homescreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/navigation/RootNavigator.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "navigation_rootnavigator",
+      "target": "screens_homescreen_homescreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/screens/HomeScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "screens_homescreen",
+      "target": "screens_homescreen_homescreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "store_authslice",
+      "target": "store_authslice_authslice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "store_authslice",
+      "target": "store_authslice_authstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "store_authslice",
+      "target": "store_authslice_authstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/authSlice.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "store_authslice",
+      "target": "store_authslice_initialstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "store_index",
+      "target": "store_authslice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "store_index",
+      "target": "store_index_appdispatch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "store_index",
+      "target": "store_index_rootstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/store/index.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "store_index",
+      "target": "store_index_store",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_tsconfig",
+      "target": "mobile_tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_tsconfig",
+      "target": "mobile_tsconfig_extends",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "mobile_tsconfig_compileroptions",
+      "target": "mobile_tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mobile_tsconfig_compileroptions",
+      "target": "mobile_tsconfig_compileroptions_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_attendance_tracker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "readme_attendance_tracker",
+      "target": "readme_run_the_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "readme_attendance_tracker",
+      "target": "readme_run_the_mobile_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "readme_attendance_tracker",
+      "target": "readme_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_attendance_tracker",
+      "target": "readme_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "readme_attendance_tracker",
+      "target": "readme_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_api_design",
+      "target": "docs_api_design_api_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_attendance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_classes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L308",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_cors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L274",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_enrollments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_filtering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_pagination",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_payments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L292",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_permissions_matrix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_students",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L302",
+      "weight": 1.0,
+      "source": "docs_api_design_api_design",
+      "target": "docs_api_design_versioning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/api-design.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "docs_api_design_auth",
+      "target": "docs_api_design_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture",
+      "target": "docs_architecture_architecture_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_ambiguities_resolved_without_user_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_architectural_principles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_backend_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_docker_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_future_scalability_documented_not_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_high_level_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_key_tradeoffs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_mobile_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_questions_for_product_owner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_repository_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "docs_architecture_architecture_overview",
+      "target": "docs_architecture_security_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "docs_architecture_backend_architecture",
+      "target": "docs_architecture_api_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "docs_architecture_backend_architecture",
+      "target": "docs_architecture_authentication_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "docs_architecture_backend_architecture",
+      "target": "docs_architecture_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "docs_architecture_backend_architecture",
+      "target": "docs_architecture_error_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "docs_architecture_backend_architecture",
+      "target": "docs_architecture_layers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "docs_architecture_backend_architecture",
+      "target": "docs_architecture_multi_tenancy_user_isolation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "docs_architecture_mobile_architecture",
+      "target": "docs_architecture_networking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "docs_architecture_mobile_architecture",
+      "target": "docs_architecture_recommended_stack_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_database_design",
+      "target": "docs_database_design_database_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_attendance_status_extensibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_cascades_and_deletes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_entity_relationship_logical",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_er_diagram_mermaid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L228",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_migrations_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L235",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_postgresql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_statistics_computed_not_stored",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_database_design_database_design",
+      "target": "docs_database_design_tables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_accounts_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_attendance_attendance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_classes_class",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_notes_studentnote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_payments_payment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_recommendations_recommendation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_students_enrollment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/database-design.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "docs_database_design_tables",
+      "target": "docs_database_design_students_student",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture",
+      "target": "docs_frontend_architecture_frontend_architecture_react_native",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_accessibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_forms_and_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_navigation_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_performance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_project_structure_mobile_src",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_redux_vs_react_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_screen_ux_patterns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_student_profile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_take_attendance_ux",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_frontend_architecture_react_native",
+      "target": "docs_frontend_architecture_testing_mobile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_redux_vs_react_query",
+      "target": "docs_frontend_architecture_auth_query_integration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_redux_vs_react_query",
+      "target": "docs_frontend_architecture_react_query_owns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/frontend-architecture.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_frontend_architecture_redux_vs_react_query",
+      "target": "docs_frontend_architecture_redux_toolkit_owns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_implementation_plan",
+      "target": "docs_implementation_plan_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_dependency_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_10_dashboard_statistics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_11_frontend_polish",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_12_testing_hardening",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_13_production_readiness",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_1_project_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_2_database_models",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_3_authentication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_4_class_management",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_5_student_management_enrollment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_6_attendance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_7_payments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_8_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_9_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_questions_requiring_your_decision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/progress.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_progress",
+      "target": "docs_progress_implementation_progress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/progress.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_progress_implementation_progress",
+      "target": "docs_progress_documentation_pre_implementation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/progress.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_progress_implementation_progress",
+      "target": "docs_progress_implementation_phases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/progress.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_progress_implementation_progress",
+      "target": "docs_progress_phase_1_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "mobile_agents",
+      "target": "mobile_agents_building_with_eas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "mobile_agents",
+      "target": "mobile_agents_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_agents",
+      "target": "mobile_agents_expo_has_changed_do_not_trust_your_training_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "mobile_agents",
+      "target": "mobile_agents_navigation_routing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/AGENTS.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "mobile_agents",
+      "target": "mobile_agents_rules",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "db479d25ab117bef9a1ac3780cf2fbfbf9bb02ad"
+}
